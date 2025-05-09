@@ -1,0 +1,167 @@
+[
+  {
+    "id": "12345",
+    "date_published": "2023-05-15",
+    "title": "Apache Tomcat Remote Code Execution",
+    "type": "webapps",
+    "platform": "multiple",
+    "author": "Security Researcher",
+    "port": "8080",
+    "description": "A vulnerability in Apache Tomcat allows remote attackers to execute arbitrary code via crafted HTTP requests.",
+    "verified": true
+  },
+  {
+    "id": "23456",
+    "date_published": "2023-04-20",
+    "title": "MySQL Authentication Bypass",
+    "type": "remote",
+    "platform": "linux",
+    "author": "Database Expert",
+    "port": "3306",
+    "description": "An authentication bypass vulnerability in MySQL allows attackers to gain unauthorized access to database resources.",
+    "verified": true
+  },
+  {
+    "id": "51706",
+    "date_published": "2023-03-10",
+    "title": "FTP Server Buffer Overflow",
+    "type": "remote",
+    "platform": "windows",
+    "author": "Anonymous",
+    "port": "21",
+    "description": "A buffer overflow in a popular FTP server implementation allows remote attackers to execute arbitrary code with system privileges.",
+    "verified": true
+  },
+  {
+    "id": "45678",
+    "date_published": "2023-02-28",
+    "title": "SMB Protocol Vulnerability",
+    "type": "remote",
+    "platform": "windows",
+    "author": "File Sharing Expert",
+    "port": "445",
+    "description": "A critical vulnerability in the SMB protocol allows remote attackers to compromise Windows systems without authentication.",
+    "verified": true
+  },
+  {
+    "id": "56789",
+    "date_published": "2023-01-15",
+    "title": "SSH Authentication Weakness",
+    "type": "remote",
+    "platform": "multiple",
+    "author": "Secure Shell Researcher",
+    "port": "22",
+    "description": "A cryptographic weakness in certain SSH implementations allows attackers to bypass authentication under specific conditions.",
+    "verified": false
+  },
+  {
+    "id": "67890",
+    "date_published": "2022-12-20",
+    "title": "DNS Server Spoofing Attack",
+    "type": "remote",
+    "platform": "multiple",
+    "author": "Network Security Expert",
+    "port": "53",
+    "description": "A vulnerability in popular DNS server software allows attackers to execute cache poisoning attacks more effectively.",
+    "verified": true
+  },
+  {
+    "id": "78901",
+    "date_published": "2022-11-05",
+    "title": "SMTP Mail Server Injection",
+    "type": "remote",
+    "platform": "linux",
+    "author": "Email Security Researcher",
+    "port": "25",
+    "description": "An injection vulnerability in SMTP servers allows attackers to send unauthorized emails and potentially execute commands.",
+    "verified": true
+  },
+  {
+    "id": "89012",
+    "date_published": "2022-10-10",
+    "title": "RDP Session Hijacking",
+    "type": "remote",
+    "platform": "windows",
+    "author": "Remote Access Expert",
+    "port": "3389",
+    "description": "A vulnerability in the RDP protocol allows attackers to hijack active sessions and gain unauthorized access.",
+    "verified": false
+  },
+  {
+    "id": "90123",
+    "date_published": "2022-09-20",
+    "title": "LDAP Injection Vulnerability",
+    "type": "remote",
+    "platform": "multiple",
+    "author": "Directory Services Researcher",
+    "port": "389",
+    "description": "An LDAP injection vulnerability affecting directory services allows attackers to access unauthorized information.",
+    "verified": true
+  },
+  {
+    "id": "01234",
+    "date_published": "2022-08-15",
+    "title": "NFS Unauthorized Access",
+    "type": "remote",
+    "platform": "linux",
+    "author": "File System Expert",
+    "port": "2049",
+    "description": "A misconfiguration vulnerability in NFS allows remote attackers to access files without proper authentication.",
+    "verified": true
+  },
+  {
+    "id": "12340",
+    "date_published": "2022-07-10",
+    "title": "Remote Code Execution in Web Framework",
+    "type": "webapps",
+    "platform": "php",
+    "author": "Web Security Researcher",
+    "port": "80",
+    "description": "A vulnerability in a popular PHP framework allows attackers to execute arbitrary code through specially crafted HTTP requests.",
+    "verified": true
+  },
+  {
+    "id": "23450",
+    "date_published": "2022-06-15",
+    "title": "VPN Authentication Bypass",
+    "type": "remote",
+    "platform": "multiple",
+    "author": "VPN Security Expert",
+    "port": "1194",
+    "description": "A critical vulnerability in a widely-used VPN solution allows attackers to bypass authentication and gain network access.",
+    "verified": true
+  },
+  {
+    "id": "34560",
+    "date_published": "2022-05-20",
+    "title": "SQL Injection in CMS",
+    "type": "webapps",
+    "platform": "php",
+    "author": "Database Security Researcher",
+    "port": "80",
+    "description": "A SQL injection vulnerability in a popular content management system allows attackers to extract sensitive information.",
+    "verified": true
+  },
+  {
+    "id": "45670",
+    "date_published": "2022-04-11",
+    "title": "TELNET Buffer Overflow",
+    "type": "remote",
+    "platform": "linux",
+    "author": "Legacy Protocol Researcher",
+    "port": "23",
+    "description": "A buffer overflow in a TELNET server implementation allows attackers to gain remote code execution privileges.",
+    "verified": false
+  },
+  {
+    "id": "56780",
+    "date_published": "2022-03-05",
+    "title": "Remote File Inclusion in Web Application",
+    "type": "webapps",
+    "platform": "php",
+    "author": "Web Application Expert",
+    "port": "80",
+    "description": "A remote file inclusion vulnerability in a web application allows attackers to include arbitrary files from remote locations.",
+    "verified": true
+  }
+]
